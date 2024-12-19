@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bollywood Movie List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bollywood Movie List</h1>
+
+    <div class="buttons">
+      <button onclick="addMovie('Shiddat', 'Romance', 7.1, 2019)">Add 'Shiddat'</button>
+      <button onclick="addMovie('Pushpa 2', 'Thriller', 8.2, 2015)">Add 'Pushpa 2'</button>
+      <button onclick="listMoviesByGenre('Drama')">List Drama Movies</button>
+      <button onclick="findHighestRatedMovie()">Find Highest Rated Movie</button>
+      <button onclick="listAllMovieTitles()">List All Movie Titles</button>
+      <button onclick="findMoviesAfterYear(2000)">Movies After 2000</button>
+    </div>
+
+    <div id="moviesOutput">
+      <!-- Movie data will be shown here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
